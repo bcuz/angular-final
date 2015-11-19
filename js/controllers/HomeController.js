@@ -3,17 +3,18 @@ app.controller('HomeController', ['$scope', 'suggestions', function($scope, sugg
 
 
     $scope.addSuggestion = function(index) {
+    if ($scope.title === "" | !$scope.title) {
+      return
+    }
+
     $scope.posts.push({
     title: $scope.title,
     upvotes: 0,
     comments: [],
     })
 
-    if ($scope.title === "") {
-      return
-    } else {
       $scope.title = "";
-    }
+
 };
     }]);
 
