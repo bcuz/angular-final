@@ -9,6 +9,11 @@ app.controller('HomeController', ['$scope', 'suggestions', function($scope, sugg
     comments: [],
     })
 
+    if ($scope.title === "") {
+      return
+    } else {
+      $scope.title = "";
+    }
 };
     }]);
 
