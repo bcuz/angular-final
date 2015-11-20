@@ -1,3 +1,6 @@
-<div ng-repeat="comment in post.comments">
-  {{ comment.body }}
-</div>
+<!-- why does this print 4 times?
+Doesn't make sense. It shouldn't do that.
+Especially compared to the reader project...
+Ah, the ng-repeat... maybe it is best to keep it in the respective view-->
+
+{{ post.comments }}
