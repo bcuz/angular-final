@@ -6,7 +6,7 @@
     {
     title: 'Free pizza at club meetings',
     upvotes: 15,
-    comments: ["test"],
+    comments: [{ body: "hi", upvotes: 5}],
     },
     {
     title: 'End all club emails with Laffy Taffy jokes',

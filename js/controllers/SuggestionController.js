@@ -10,5 +10,7 @@ app.controller('SuggestionController', ['$scope', 'suggestions', '$routeParams',
     $scope.upVote = function(comment) {
     comment.upvotes += 1;
 };
+
+    // $scope.currentIndex = parseInt($routeParams.id);
     }]);
 
