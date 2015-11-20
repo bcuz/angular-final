@@ -15,12 +15,12 @@
     },
     {
     title: 'Retrofit water fountain with Gatorade',
-    upvotes: 7,
+    upvotes: 3,
     comments: [],
     },
     {
     title: 'Sing Bon Jovi\'s "Living on a Prayer" halfway through meetings',
-    upvotes: 3,
+    upvotes: 7,
     comments: [],
     }
     ]
