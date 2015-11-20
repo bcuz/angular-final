@@ -1,7 +1,11 @@
 
 {{ post.title }}
 
-{{ post.comments }}
+<div ng-repeat="comment in post.comments">
+<p>{{ comment.body }}</p>
+
+{{ comment.upvotes }}
+</div>
 
 <form ng-submit="addComment()" style="margin-top: 50px">
   <h3> Submit Your Comment </h3>
