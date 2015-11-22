@@ -4,6 +4,12 @@
     <span class="glyphicon glyphicon-plus-sign" ng-click="upVote(post)"></span> Upvotes: {{post.upvotes}}
     </p>
 
-    <!-- this creates a bug -->
+    <!-- this creates a bug
+      Could I throw in a post object here. Sounds iffy.
+      Ah, yeah I might be able to make a function that spits out the desired link
+     This would be complicated to implement tho
+     Spit the last object out and get the number used for the link
+
+  -->
     <a href="#/suggestion/{{$index}}">Comments</a>
 </div>
