@@ -1,5 +1,6 @@
 
 {{ post.title }}
+{{ post.upvotes }}
 
 <div ng-repeat="comment in post.comments | orderBy:'-upvotes'">
 <p>{{ comment.body }}</p>
